@@ -49,6 +49,7 @@ Build-type:          Custom
 Cabal-version:       >=1.14
 Extra-source-files:  Demo.hs
 data-files:          ghci
+Tested-with:         GHC >= 7.4.1 && <= 7.10.2
 
 Flag prim-supports-any
     Description: The used GHC supports Any as an argument to foreign prim functions (GHC ticket #5931)
